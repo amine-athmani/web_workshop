@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'GOT';
+    src: url('/fonts/Game\ of\ Thrones.ttf')  format('truetype');
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#catalogTitle {
+    font-family: GOT;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
