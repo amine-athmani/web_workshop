@@ -21,3 +21,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+
+.fa-star {
+    color: #ffdf00;
+}
+
+.inactive-star {
+    color: grey;
+}
